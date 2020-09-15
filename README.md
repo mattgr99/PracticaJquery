@@ -1,2 +1,0 @@
-# PracticaJquery
-Practica Laboratorio Web
