@@ -1,0 +1,99 @@
+html{
+     height: 100%;
+     background: radial-gradient(circle,#fff,#ccc);
+}
+
+.contenedor{
+     height: 600px;
+     width: 750px;
+     background: #9DD2DA;
+     margin: 10px auto;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 0px 0px;
+     position: relative;
+}
+
+#puntaje{
+     width: 100px;
+     background-color: #f1ff92;
+     color: #888e5f;
+     padding: 10px;
+     position: absolute;
+     left: 600px;
+     box-shadow: 0px 4px 0px #9da853;
+
+}
+
+#contenedorfrutas{
+     width: 650px;
+     height: 400px;
+     margin: 50px auto 10px auto;
+     background-color: #fff;
+     box-shadow: 0px 4px #535aa8;
+     position: relative;
+     overflow: hidden;
+}
+
+#instruccion{
+     width: 450px;
+     height: 50px;
+     background-color: #b411d9;
+     margin: 10px auto;
+     text-align: center;
+     line-height: 45px;
+     box-shadow: 0px 4px #8153a8;
+}
+
+#inicioreset{
+     width: 110px;
+     padding: 10px;
+     background-color: rgb(255, 255, 255,0.5);
+     margin: 0 auto;
+     border-radius: 3px;
+     cursor: pointer;
+     box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     position: relative;
+}
+
+#inicioreset:hover{
+     background-color: #9c89f6;
+     color: #fff;
+     box-shadow: 0px 4px #6b5403;
+}
+
+#vidas{
+     width: 80px;
+     padding: 10px;
+     position: absolute;
+     background-color: #f1ff92;
+     border-radius: 3px;
+     box-shadow: 0px 4px rgb(255, 255, 255,0.5);
+}
+
+#gameover{
+     height: 200px;
+     width: 500px;
+     background: linear-gradient(#f3ca6b,#f3706c);
+     color: #000;
+     font-size: 2.5em;
+     text-align: center;
+     text-transform: uppercase;
+     position: absolute;
+     top: 170px;
+     left: 145px;
+     display: none;
+}
+
+.fruta{
+     display: none;
+     position: absolute;
+
+}
+
+.vida{
+     width: 16px;
+     height: 16px;
+     margin: 0 5px;
+}
